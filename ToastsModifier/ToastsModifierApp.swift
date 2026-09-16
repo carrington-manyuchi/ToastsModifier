@@ -11,7 +11,7 @@ import SwiftUI
 struct ToastsModifierApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ToastDemoView(text: "")
         }
     }
 }
